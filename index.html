@@ -22,6 +22,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#" onclick="toggleMode()">Change mood</a></li>
             </ul>
         </nav>
     </header>
@@ -81,5 +82,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+            document.body.classList.toggle("light-mode");
+        }
+    </script>
 </body>
 </html>
